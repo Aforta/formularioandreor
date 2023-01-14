@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lan="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles1.css">
+    <title>Registro I program</title>
+  </head>
+<body id="principal">
+  <h1 id= "title">I Program</h1>
+  <p class="inicio1"> "Reinventarse en la Adversidad para Echar a volar"</p><dr>
+  <p id="description" class="inicio2"> Registro al Curso de Desarrollador de Software.</p>
+<form id="survey-form" action= "Registro.html" method= "GET">
+  <label id= "name-label" for= "name" class="Datos">Nombres: <input id= "name" type= "text" name= "first name" placeholder= "Escriba sus nombres" class="Datos1" required></label>
+  <label id="name-label1" for="surname" class="Datos">Apellidos: <input id="surname" name="last name" type="text" placeholder="Escriba sus apellidos" class="Datos1" required></label>
+  <label id="number-label" for="number" class="Datos">Edad: <input id="number" type= "number" name="age" min= "18" max="100" placeholder="Escriba su edad" class="Datos1" required></label>
+  <label id="email-label" for="email" class="Datos">Email: <input id="email" name="name" type="email" placeholder="Escriba su email" class="Datos1" required></label>
+  <label for="dropdown" class="Datos"> ¿Nivel de estudio?
+    <select id="dropdown" name="educación" class="Datos1">>
+      <option class="option">(seleccione)</option>
+      <option>Bachillerato</option>
+      <option>Universitario</option>
+      <option>Magíster</option>
+      <option>Doctorado</option> 
+    </select>
+  </label>
+
+  <div class="btn-group" role="group" aria-label="Basic radio toggle button group"> ¿Qué tipos de desarrollador conoces?
+ 
+  <label class="btn-btn-outline-primary" for="btnradio1"><input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off"value= "2" > Fronte end</label>
+
+  <label class="btn btn-outline-primary" for="btnradio2"><input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off"value= "2" > Back end</label>
+
+  <label class="btn btn-outline-primary" for="btnradio3"> <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off"value= "3" > Full Starck</label>
+</div>
+
+<div class="btn-group" role="group" aria-label="Basic radio toggle button group"> ¿Qué de nivel de HTML te concidera?
+  <label class="btn btn-outline-primary" for="btnradio1"><input type="radio" class="btn-check" name="HTML" id="btnradio1" autocomplete="off" value= "1" checked> Basico</label>
+
+  <label class="btn btn-outline-primary" for="btnradio2"> <input type="radio" class="btn-check" name="HTML" id="btnradio2" autocomplete="off"value= "2" > Intermedio</label>
+
+  <label class="btn btn-outline-primary" for="btnradio3"> <input type="radio" class="btn-check" name="HTML" id="btnradio3" autocomplete="off"value= "3" > Avanzado</label>
+</div>
+<div class="btn-group" role="group" aria-label="Basic radio toggle button group"> ¿Qué de nivel de CSS te concidera?
+  <label class="btn btn-outline-primary" for="btnradio1"> <input type="radio" class="btn-check" name="CSS" id="btnradio1" autocomplete="off" value= "1" checked> Basico</label>
+
+  <label class="btn btn-outline-primary" for="btnradio2"><input type="radio" class="btn-check" name="CSS" id="btnradio2" autocomplete="off"value= "2" > Intermedio</label>
+
+  <label class="btn btn-outline-primary" for="btnradio3"><input type="radio" class="btn-check" name="CSS" id="btnradio3" autocomplete="off"value= "3" > Avanzado</label>
+</div>
+
+<div class="tiposle">¿Qué tipo de programación conoces?
+<label>
+  <input type="checkbox" value="lenguaje" name="lenguaje" class="input-checkbox">JavaScript
+</label>
+<label>
+  <input type="checkbox" value="lenguaje" name="lenguaje" class="input-checkbox">Python
+</label>
+<label>
+  <input type="checkbox" value="lenguaje" name="lenguaje" class="input-checkbox">PHP
+</label>
+<label>
+  <input type="checkbox" value="lenguaje" name="lenguaje" class="input-checkbox">Java
+</label>
+<label>
+  <input type="checkbox" value="lenguaje" name="lenguaje" class="input-checkbox">Go
+</label>
+<label>
+  <input type="checkbox" value="lenguaje" name="lenguaje" class="input-checkbox">C++
+</label>
+<label>
+  <input type="checkbox" value="lenguaje" name="lenguaje" class="input-checkbox">c
+</label>
+<label>
+  <input type="checkbox" value="lenguaje" name="lenguaje" class="input-checkbox">Wz.CSS
+</label>
+</div>
+<p class="pdesarrollo"> ¿Por qué quieres estudiar programción</p>
+<textarea></textarea>
+
+<button id="submit">Enviar</button>
+
+</from>
+
+</body>
+</html>

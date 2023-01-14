@@ -1,0 +1,114 @@
+body {
+  font-family: 'Playfair Display', serif ;
+  font-size: 20px;
+  color: white;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+
+}
+
+h1{
+  font-size: 3rem;
+  
+}
+
+h1, .inicio1, .inicio2 {
+  margin: 1em auto;
+  text-align: center;
+}
+
+.inicio1 {
+   font-size: 1.5rem;
+
+}
+
+
+form {
+  background: rgba(5, 7, 12, 0.65);
+  width:  50vw;
+  max-width: 700px;
+  min-width: 500px;
+  margin: 0 auto;
+  padding-bottom: 120px;
+ }
+
+
+.Datos {
+  display: block;
+  padding: 1px 0;
+  margin: 30px;
+
+}
+
+.Datos1 {
+  width: 100%;
+  height: 100%;
+  background: none;
+  color: #fff;
+  padding-top: 28px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  display: block;
+  outline: 0px;
+
+}
+
+.Datos1:focus {
+  border-bottom: 3px solid #2ecece; 
+
+}
+
+select option {
+  color: black;
+}
+
+
+.btn-group {
+  display: block;
+  margin: 30px;
+}
+
+div label {
+  display: block;
+}
+
+  
+.tiposle {
+  margin: 30px;
+}
+
+.pdesarrollo {
+  margin: 30px;
+}
+
+textarea {
+  margin: 30px;
+  width: 85%;
+  padding-top: 28px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  display: block;
+  outline: 0px;
+  background: none;
+  color: #fff;
+}
+
+button {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: orange;
+
+}
+
+#principal {
+  min-height: 100vh;
+  background: linear-gradient(rgb(5, 7, 12, 0.40), rgb(5, 7, 12, 0.40)), url(https://previews.123rf.com/images/monsitj/monsitj1707/monsitj170700101/82820153-resumen-infograf%C3%ADa-futurista-con-complejidad-de-datos-visuales-representa-el-concepto-big-data-la-pr.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
